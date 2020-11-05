@@ -61,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -93,13 +94,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\main" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -149,15 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,7 +208,14 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1603740187620" duration="3678000" />
-      <workItem from="1603754116913" duration="9698000" />
+      <workItem from="1603754116913" duration="9799000" />
+      <workItem from="1604587851170" duration="1072000" />
+      <workItem from="1604588938346" duration="139000" />
+      <workItem from="1604589090232" duration="6000" />
+      <workItem from="1604589163319" duration="6693000" />
+      <workItem from="1604595941495" duration="144000" />
+      <workItem from="1604596099570" duration="1606000" />
+      <workItem from="1604597722955" duration="2644000" />
     </task>
     <servers />
   </component>
@@ -244,30 +255,36 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603766652916" />
-    <state x="256" y="423" key="FileChooserDialogImpl" timestamp="1603740512634">
+    <state x="256" y="423" width="660" height="621" key="FileChooserDialogImpl" timestamp="1604589303407">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="256" y="423" key="FileChooserDialogImpl/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740512634" />
-    <state width="2517" height="314" key="GridCell.Tab.0.bottom" timestamp="1603767497933">
+    <state x="256" y="423" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604589303407" />
+    <state width="2517" height="128" key="GridCell.Tab.0.bottom" timestamp="1604599837936">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767497933" />
-    <state width="2517" height="314" key="GridCell.Tab.0.center" timestamp="1603767497932">
+    <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668012" />
+    <state width="2517" height="128" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837936" />
+    <state width="2517" height="128" key="GridCell.Tab.0.center" timestamp="1604599837935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767497932" />
-    <state width="2517" height="314" key="GridCell.Tab.0.left" timestamp="1603767497932">
+    <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
+    <state width="2517" height="128" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837935" />
+    <state width="2517" height="128" key="GridCell.Tab.0.left" timestamp="1604599837934">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767497932" />
-    <state width="2517" height="314" key="GridCell.Tab.0.right" timestamp="1603767497932">
+    <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
+    <state width="2517" height="128" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837934" />
+    <state width="2517" height="128" key="GridCell.Tab.0.right" timestamp="1604599837935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767497932" />
-    <state x="30" y="256" key="SettingsEditor" timestamp="1603758315667">
+    <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
+    <state width="2517" height="128" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837935" />
+    <state x="543" y="201" key="SettingsEditor" timestamp="1604589307995">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="30" y="256" key="SettingsEditor/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603758315667" />
+    <state x="543" y="201" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604589307995" />
     <state x="349" y="410" width="2300" height="1091" key="dock-window-1" timestamp="1603742259528">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -276,5 +293,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" key="run.anything.popup/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603764243225" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604588230990">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604588230990" />
   </component>
 </project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+         <content>
+            <Label alignment="TOP_LEFT" prefHeight="281.0" prefWidth="230.0" text="This is the Boss Kill Simulator Screen" wrapText="true" />
+         </content></ScrollPane>
+      <HBox maxHeight="60.0" maxWidth="1.7976931348623157E308" minHeight="60.0" prefHeight="60.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Boss Kill Simulator" HBox.hgrow="ALWAYS" />
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Get Item Simulator" HBox.hgrow="ALWAYS" />
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Item Chance Calculator" HBox.hgrow="ALWAYS" />
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Home" HBox.hgrow="ALWAYS" />
+         </children></HBox>
+   </children>
+</VBox>

@@ -1,7 +1,6 @@
 package net.kuhlroad.osrskcsim.main;
 
 import javafx.application.Application;
-import net.kuhlroad.osrskcsim.gui.MainWindow;
 
 public class Main {
 
