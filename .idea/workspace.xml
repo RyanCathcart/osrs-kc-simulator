@@ -7,10 +7,18 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="This project is going to have a set window size. Managed to get menu buttons working.">
+      <changelist_data name="Ryan Cathcart" email="" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +79,13 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ryan Cathcart" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1jQdKGMVzKXSM3o21EWurmE84zz" />
@@ -94,16 +108,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.kuhlroad.osrskcsim.main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\gui" />
       <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\main" />
     </key>
   </component>
@@ -134,7 +155,7 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="net.kuhlroad.osrskcsim.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="net.kuhlroad.osrskcsim.main.OSRSKCSim" />
       <module name="osrs-kc-simulator-javafx" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -155,13 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,7 +238,9 @@
       <workItem from="1604589163319" duration="6693000" />
       <workItem from="1604595941495" duration="144000" />
       <workItem from="1604596099570" duration="1606000" />
-      <workItem from="1604597722955" duration="2644000" />
+      <workItem from="1604597722955" duration="3567000" />
+      <workItem from="1604619468024" duration="6321000" />
+      <workItem from="1604626120628" duration="2945000" />
     </task>
     <servers />
   </component>
@@ -227,7 +252,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -236,13 +273,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Playing with JavaFX. Learning to manipulate scenes and controls." />
+    <MESSAGE value="This project is going to have a set window size. Managed to get menu buttons working." />
+    <option name="LAST_COMMIT_MESSAGE" value="This project is going to have a set window size. Managed to get menu buttons working." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="622" y="225" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603742484337">
+    <state x="1032" y="524" key="#Notifications" timestamp="1604600696458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1032" y="524" key="#Notifications/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604600696458" />
+    <state x="3027" y="167" width="819" height="606" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604622192145">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
     <state x="622" y="225" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603742484337" />
+    <state x="3027" y="167" width="819" height="606" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622192145" />
     <state x="948" y="275" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603740786183">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -255,36 +302,44 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603766652916" />
-    <state x="256" y="423" width="660" height="621" key="FileChooserDialogImpl" timestamp="1604589303407">
+    <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl" timestamp="1604628724661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="256" y="423" key="FileChooserDialogImpl/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740512634" />
-    <state x="256" y="423" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604589303407" />
-    <state width="2517" height="128" key="GridCell.Tab.0.bottom" timestamp="1604599837936">
+    <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628724661" />
+    <state width="2517" height="330" key="GridCell.Tab.0.bottom" timestamp="1604629069369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668012" />
-    <state width="2517" height="128" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837936" />
-    <state width="2517" height="128" key="GridCell.Tab.0.center" timestamp="1604599837935">
+    <state width="2517" height="330" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604629069369" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
+    <state width="2517" height="330" key="GridCell.Tab.0.center" timestamp="1604629069369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="128" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837935" />
-    <state width="2517" height="128" key="GridCell.Tab.0.left" timestamp="1604599837934">
+    <state width="2517" height="330" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604629069369" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
+    <state width="2517" height="330" key="GridCell.Tab.0.left" timestamp="1604629069369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="128" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837934" />
-    <state width="2517" height="128" key="GridCell.Tab.0.right" timestamp="1604599837935">
+    <state width="2517" height="330" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604629069369" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
+    <state width="2517" height="330" key="GridCell.Tab.0.right" timestamp="1604629069369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="128" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604599837935" />
-    <state x="543" y="201" key="SettingsEditor" timestamp="1604589307995">
+    <state width="2517" height="330" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604629069369" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
+    <state x="446" y="196" key="SettingsEditor" timestamp="1604629066671">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="30" y="256" key="SettingsEditor/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603758315667" />
-    <state x="543" y="201" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604589307995" />
+    <state x="446" y="196" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604629066671" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604628401621">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628401621" />
     <state x="349" y="410" width="2300" height="1091" key="dock-window-1" timestamp="1603742259528">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
