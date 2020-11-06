@@ -4,7 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.StackPane;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /**
@@ -22,10 +22,11 @@ public class OSRSKCSim extends Application {
      */
     @Override
     public void start(Stage window) throws Exception {
-        window.setTitle("OSRS KC Simulator");
-        window.setResizable(false);
-        StackPane contentStack = new StackPane();
-        Parent home = FXMLLoader.load(getClass().getResource("../gui/Home.fxml"));
+        window.getIcons().add(new Image(getClass().getResourceAsStream("../assets/osrs-slayer-wiki-icon.png")));
+        window.setTitle("OSRS Killcount Simulator");
+        // window.setResizable(false);
+
+        Parent home = FXMLLoader.load(getClass().getResource("../gui/MainWindow.fxml"));
 
         Scene sceneHome = new Scene(home);
         window.setScene(sceneHome);

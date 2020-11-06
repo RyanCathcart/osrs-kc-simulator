@@ -1,12 +1,9 @@
 package net.kuhlroad.osrskcsim.assets;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * @author Ryan Cathcart
