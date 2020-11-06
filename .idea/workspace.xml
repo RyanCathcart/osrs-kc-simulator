@@ -25,21 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="This project is going to have a set window size. Managed to get menu buttons working.">
-      <change afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/MainWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator-javafx/net/kuhlroad/osrskcsim/main/BKSController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator-javafx/net/kuhlroad/osrskcsim/main/GISController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator-javafx/net/kuhlroad/osrskcsim/main/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator-javafx/net/kuhlroad/osrskcsim/main/ICCController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator-javafx/net/kuhlroad/osrskcsim/main/OSRSKCSim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/BossListManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/BossListManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/BKS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/BKS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/GIS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/GIS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/ICC.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui/ICC.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/BKSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/BKSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/GISController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/GISController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/ICCController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/ICCController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/OSRSKCSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/OSRSKCSim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +123,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -203,6 +193,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -258,6 +259,7 @@
       <workItem from="1604629087786" duration="5664000" />
       <workItem from="1604639630490" duration="13699000" />
       <workItem from="1604685531202" duration="6976000" />
+      <workItem from="1604695382081" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="This project will have a set window size for now. Managed to get the menu buttons working.">
       <created>1604629259637</created>
@@ -350,29 +352,29 @@
     </state>
     <state x="256" y="423" key="FileChooserDialogImpl/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740512634" />
     <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628724661" />
-    <state width="2517" height="221" key="GridCell.Tab.0.bottom" timestamp="1604692281173">
+    <state width="2517" height="273" key="GridCell.Tab.0.bottom" timestamp="1604695609411">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668012" />
-    <state width="2517" height="221" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604692281173" />
+    <state width="2517" height="273" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604695609411" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
-    <state width="2517" height="221" key="GridCell.Tab.0.center" timestamp="1604692281173">
+    <state width="2517" height="273" key="GridCell.Tab.0.center" timestamp="1604695609411">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="221" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604692281173" />
+    <state width="2517" height="273" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604695609411" />
     <state width="1877" height="276" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
-    <state width="2517" height="221" key="GridCell.Tab.0.left" timestamp="1604692281173">
+    <state width="2517" height="273" key="GridCell.Tab.0.left" timestamp="1604695609410">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="221" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604692281173" />
+    <state width="2517" height="273" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604695609410" />
     <state width="1877" height="276" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
-    <state width="2517" height="221" key="GridCell.Tab.0.right" timestamp="1604692281173">
+    <state width="2517" height="273" key="GridCell.Tab.0.right" timestamp="1604695609411">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="221" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604692281173" />
+    <state width="2517" height="273" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604695609411" />
     <state width="1877" height="276" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
     <state x="446" y="196" key="SettingsEditor" timestamp="1604629099247">
       <screen x="0" y="0" width="2560" height="1400" />

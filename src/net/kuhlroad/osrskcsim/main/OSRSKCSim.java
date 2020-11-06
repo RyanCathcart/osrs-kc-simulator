@@ -24,7 +24,6 @@ public class OSRSKCSim extends Application {
     public void start(Stage window) throws Exception {
         window.getIcons().add(new Image(getClass().getResourceAsStream("../assets/osrs-slayer-wiki-icon.png")));
         window.setTitle("OSRS Killcount Simulator");
-        // window.setResizable(false);
 
         Parent home = FXMLLoader.load(getClass().getResource("../gui/MainWindow.fxml"));
 
