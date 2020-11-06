@@ -6,28 +6,35 @@
 
 <VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.kuhlroad.osrskcsim.main.HomeController">
    <children>
-      <ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+      <ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="340.0" prefWidth="600.0">
          <content>
-            <Label alignment="TOP_LEFT" prefHeight="281.0" prefWidth="230.0" text="Welcome to the OSRS KC Simulator!!!!!!!!!!!!!!!!!!!!!" wrapText="true" />
-         </content></ScrollPane>
+            <AnchorPane prefHeight="338.0" prefWidth="598.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="338.0" prefWidth="598.0" text="This is an OSRS KC Simulator. Use the tools to simulate boss kills and/or unique item drop odds." />
+               </children>
+            </AnchorPane>
+         </content>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></ScrollPane>
       <HBox prefHeight="60.0" prefWidth="200.0">
          <children>
-            <Button fx:id="buttonBKS" onAction="#buttonBKSClicked" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Boss Kill Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <Button fx:id="buttonBKS" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonBKSClicked" prefHeight="60.0" text="Boss Kill Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="buttonGIS" onAction="#buttonGISClicked" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Get Item Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <Button fx:id="buttonGIS" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonGISClicked" prefHeight="60.0" text="Get Item Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="buttonICC" onAction="#buttonICCClicked" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Item Chance Calculator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <Button fx:id="buttonICC" alignment="CENTER" contentDisplay="TOP" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonICCClicked" prefHeight="60.0" text="Item Chance Calculator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="buttonHome"  onAction="#buttonHomeClicked" contentDisplay="TOP" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="60.0" text="Home" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+            <Button fx:id="buttonHome" contentDisplay="TOP" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonHomeClicked" prefHeight="60.0" text="Home" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin></Button>
