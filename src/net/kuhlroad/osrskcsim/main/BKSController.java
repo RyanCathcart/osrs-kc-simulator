@@ -2,18 +2,31 @@ package net.kuhlroad.osrskcsim.main;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ChoiceBox;
 import javafx.stage.Stage;
 
-public class BKSController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class BKSController implements Initializable {
 
     public Button buttonBKS;
     public Button buttonGIS;
     public Button buttonICC;
     public Button buttonHome;
+
+    public ChoiceBox bossChoiceBox;
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        bossChoiceBox.getItems().addAll("Vorkath");
+        bossChoiceBox.getSelectionModel().select("Vorkath");
+    }
 
     public void buttonBKSClicked(ActionEvent event) throws Exception{
         Parent parentBKS = FXMLLoader.load(getClass().getResource("../gui/BKS.fxml"));
