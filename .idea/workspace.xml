@@ -258,7 +258,7 @@
       <workItem from="1604597722955" duration="3567000" />
       <workItem from="1604619468024" duration="6321000" />
       <workItem from="1604626120628" duration="2945000" />
-      <workItem from="1604629087786" duration="2804000" />
+      <workItem from="1604629087786" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="This project will have a set window size for now. Managed to get the menu buttons working.">
       <created>1604629259637</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604629259637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added flavor text to each scene describing what each tool is meant to do. May be useful for quick reference during development.">
+      <created>1604631991115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604631991115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +300,8 @@
     <MESSAGE value="Playing with JavaFX. Learning to manipulate scenes and controls." />
     <MESSAGE value="This project is going to have a set window size. Managed to get menu buttons working." />
     <MESSAGE value="This project will have a set window size for now. Managed to get the menu buttons working." />
-    <option name="LAST_COMMIT_MESSAGE" value="This project will have a set window size for now. Managed to get the menu buttons working." />
+    <MESSAGE value="Added flavor text to each scene describing what each tool is meant to do. May be useful for quick reference during development." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added flavor text to each scene describing what each tool is meant to do. May be useful for quick reference during development." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="524" key="#Notifications" timestamp="1604600696458">
@@ -322,29 +330,29 @@
     </state>
     <state x="256" y="423" key="FileChooserDialogImpl/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740512634" />
     <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628724661" />
-    <state width="2517" height="330" key="GridCell.Tab.0.bottom" timestamp="1604631877548">
+    <state width="2517" height="330" key="GridCell.Tab.0.bottom" timestamp="1604632349125">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668012" />
-    <state width="2517" height="330" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604631877548" />
+    <state width="2517" height="330" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604632349125" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
-    <state width="2517" height="330" key="GridCell.Tab.0.center" timestamp="1604631877547">
+    <state width="2517" height="330" key="GridCell.Tab.0.center" timestamp="1604632349124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="330" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604631877547" />
+    <state width="2517" height="330" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604632349124" />
     <state width="1877" height="276" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
-    <state width="2517" height="330" key="GridCell.Tab.0.left" timestamp="1604631877547">
+    <state width="2517" height="330" key="GridCell.Tab.0.left" timestamp="1604632349124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="330" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604631877547" />
+    <state width="2517" height="330" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604632349124" />
     <state width="1877" height="276" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194887" />
-    <state width="2517" height="330" key="GridCell.Tab.0.right" timestamp="1604631877547">
+    <state width="2517" height="330" key="GridCell.Tab.0.right" timestamp="1604632349124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="330" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604631877547" />
+    <state width="2517" height="330" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604632349124" />
     <state width="1877" height="276" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604622194888" />
     <state x="446" y="196" key="SettingsEditor" timestamp="1604629099247">
       <screen x="0" y="0" width="2560" height="1400" />
