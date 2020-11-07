@@ -20,6 +20,7 @@ public class MainWindowController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         setPage("Home.fxml");
+
         buttonHome.setDisable(true);
         buttonBKS.setDisable(false);
         buttonGIS.setDisable(false);
@@ -65,7 +66,7 @@ public class MainWindowController implements Initializable {
      */
     public void setPage(String filename) {
         try {
-            URL fileURL = OSRSKCSim.class.getResource("../gui/" + filename);
+            URL fileURL = MainWindowController.class.getResource("../gui/" + filename);
 
             if (fileURL == null)
                 throw new java.io.FileNotFoundException("FXML file can't be found");

@@ -6,9 +6,9 @@
 <?import javafx.scene.text.*?>
 
 
-<VBox prefHeight="338.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.kuhlroad.osrskcsim.main.GISController">
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="585.0" style="-fx-background-color: #3279a8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label alignment="TOP_LEFT" text="Get Item Simulator" wrapText="true">
+      <Label text="Get Item Simulator">
          <font>
             <Font size="18.0" />
          </font>
@@ -16,9 +16,5 @@
             <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
          </padding>
       </Label>
-      <Label text="The Get Item Simulator allows you to look up and choose a unique item from a specific boss, and simulate how many kills it would take to receive that item as a drop." wrapText="true">
-         <padding>
-            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
-         </padding></Label>
    </children>
 </VBox>
