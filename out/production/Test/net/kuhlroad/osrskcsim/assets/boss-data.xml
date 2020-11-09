@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bosses>
+    <boss>
+        <name>Vorkath</name>
+        <items>
+            <item>
+                <itemname>Vorkath's head</itemname>
+                <rate>50</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>65</rate>
+            </item>
+
+            <item>
+                <itemname>Dragonbone necklace</itemname>
+                <rate>1000</rate>
+            </item>
+
+            <item>
+                <itemname>Jar of decay</itemname>
+                <rate>3000</rate>
+            </item>
+
+            <item>
+                <itemname>Vorki (pet)</itemname>
+                <rate>3000</rate>
+            </item>
+
+            <item>
+                <itemname>Draconic visage</itemname>
+                <rate>5000</rate>
+            </item>
+
+            <item>
+                <itemname>Skeletal visage</itemname>
+                <rate>5000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
+        <name>Zulrah</name>
+        <items>
+            <item>
+                <itemname>Tanzanite fang</itemname>
+                <rate>512</rate>
+            </item>
+
+            <item>
+                <itemname>Magic fang</itemname>
+                <rate>512</rate>
+            </item>
+
+            <item>
+                <itemname>Serpentine visage</itemname>
+                <rate>512</rate>
+            </item>
+
+            <item>
+                <itemname>Uncut onyx</itemname>
+                <rate>512</rate>
+            </item>
+
+            <item>
+                <itemname>Tanzanite mutagen</itemname>
+                <rate>6553</rate>
+            </item>
+
+            <item>
+                <itemname>Magma mutagen</itemname>
+                <rate>6553</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>75</rate>
+            </item>
+
+            <item>
+                <itemname>Jar of swamp</itemname>
+                <rate>3000</rate>
+            </item>
+
+            <item>
+                <itemname>Pet snakeling</itemname>
+                <rate>4000</rate>
+            </item>
+        </items>
+    </boss>
+</bosses>

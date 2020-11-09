@@ -11,7 +11,7 @@ import javafx.stage.Stage;
  * A class for the main GUI window for the OSRS Kill Count Simulator. Has a toolbar at the bottom and a main content
  * pane at the top.
  * @author Ryan Cathcart
- * @version 2020.11.05
+ * @version 2020.11.08
  */
 public class OSRSKCSim extends Application {
 
@@ -22,10 +22,10 @@ public class OSRSKCSim extends Application {
      */
     @Override
     public void start(Stage window) throws Exception {
-        window.getIcons().add(new Image(getClass().getResourceAsStream("../assets/osrs-slayer-wiki-icon.png")));
+        window.getIcons().add(new Image(getClass().getResourceAsStream("/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png")));
         window.setTitle("OSRS Killcount Simulator");
 
-        Parent home = FXMLLoader.load(getClass().getResource("../gui/MainWindow.fxml"));
+        Parent home = FXMLLoader.load(getClass().getResource("/net/kuhlroad/osrskcsim/gui/MainWindow.fxml"));
 
         Scene sceneHome = new Scene(home);
         window.setScene(sceneHome);

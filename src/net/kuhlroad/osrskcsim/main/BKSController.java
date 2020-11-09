@@ -1,5 +1,7 @@
 package net.kuhlroad.osrskcsim.main;
 
+import javafx.beans.binding.Bindings;
+import javafx.beans.binding.BooleanBinding;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
@@ -7,6 +9,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
 import net.kuhlroad.osrskcsim.assets.Boss;
@@ -37,35 +41,44 @@ public class BKSController implements Initializable {
         }
         bossChoiceBox.getItems().addAll(bossNames);
         bossChoiceBox.getSelectionModel().select("Vorkath");
+
+        BooleanBinding textIsEmpty = Bindings.createBooleanBinding(() -> numKillsTextField.getText().trim().isEmpty(), numKillsTextField.textProperty());
+        buttonSim.disableProperty().bind(textIsEmpty);
+    }
+
+    public void KeyPressedInNumKillsTextField(KeyEvent keyEvent) {
+        if (keyEvent.getCode() == KeyCode.ENTER) {
+            simulateKills();
+        }
     }
 
     public void ButtonSimClicked(ActionEvent actionEvent) {
+        simulateKills();
+    }
+
+    /**
+     * Simulate the kills/item drops
+     */
+    public void simulateKills() {
         // Clear the previous result
         dropsFlowPane.getChildren().clear();
+        killsFieldErrorLabel.setText("");
         // Store boss name
         String bossName = (String) bossChoiceBox.getValue();
         Boss boss = bossListManager.getBossList().get(bossName);
+        int numKills = 0;
 
         try {
             // Store number of kills
-            int numKills = Integer.parseInt(numKillsTextField.getText());
+            numKills = Integer.parseInt(numKillsTextField.getText());
 
             // Create label stating what is about to be done
             simulationPreTextLabel.setText("Killing " + bossName + " " + numKills + " times: ");
 
-            // Simulate the kills
-            simulateKills(boss, numKills);
         } catch (NumberFormatException e) {
             killsFieldErrorLabel.setText(numKillsTextField.getText() +  " is not numeric.");
         }
-    }
 
-    /**
-     * Simulate a specified number of kills on a specified Boss
-     * @param boss      The Boss to 'kill'
-     * @param numKills  The number of kills
-     */
-    public void simulateKills(Boss boss, int numKills) {
         HashMap<String, Integer> items =  boss.getItems();
 
         /*

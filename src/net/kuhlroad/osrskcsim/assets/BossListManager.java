@@ -7,8 +7,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -16,7 +16,7 @@ import java.util.HashMap;
  */
 public class BossListManager {
     // Name of XML file
-    private final String FILEPATH = "boss-data.xml";
+    private final String FILEPATH = BossListManager.class.getResource("/net/kuhlroad/osrskcsim/assets/boss-data.xml").toString();
 
     // Objects needed to parse XML document
     private SAXParserFactory factory;
@@ -112,8 +112,11 @@ public class BossListManager {
 
         try {
             saxParser.parse(FILEPATH, handler);
+            System.out.println("Found file: \n" + FILEPATH);
         } catch (SAXException e) {
             e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            System.out.println("Could not find: \n" + FILEPATH);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400" prefWidth="600" style="-fx-background-color: #2C2C2C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.kuhlroad.osrskcsim.main.MainWindowController">
+   <children>
+      <ScrollPane fx:id="contentPane" style="-fx-background-color: #606060;" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+         </content></ScrollPane>
+      <HBox spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="buttonHome" maxWidth="1.7976931348623157E308" onAction="#buttonHomeClicked" prefHeight="50.0" text="Home" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="buttonBKS" maxWidth="1.7976931348623157E308" onAction="#buttonBKSClicked" prefHeight="50.0" text="Boss Kill Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="buttonGIS" maxWidth="1.7976931348623157E308" onAction="#buttonGISClicked" prefHeight="50.0" text="Get Item Simulator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="buttonICC" maxWidth="1.7976931348623157E308" onAction="#buttonICCClicked" prefHeight="50.0" text="Item Chance Calculator" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

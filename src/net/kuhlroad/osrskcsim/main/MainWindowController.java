@@ -66,7 +66,7 @@ public class MainWindowController implements Initializable {
      */
     public void setPage(String filename) {
         try {
-            URL fileURL = MainWindowController.class.getResource("../gui/" + filename);
+            URL fileURL = MainWindowController.class.getResource("/net/kuhlroad/osrskcsim/gui/" + filename);
 
             if (fileURL == null)
                 throw new java.io.FileNotFoundException("FXML file can't be found");

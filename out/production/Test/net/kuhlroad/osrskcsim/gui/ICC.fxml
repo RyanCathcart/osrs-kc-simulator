@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="338.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.kuhlroad.osrskcsim.main.ICCController">
+               <children>
+                  <Label alignment="TOP_LEFT" text="Item Chance Calculator" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </padding>
+                  </Label>
+                  <Label text="The Item Chance Calculator allows you to look up and choose an item from a specific boss and also choose a number of kills as input, and calculates the odds that you would have of obtaining that item from that boss in that number of kills." wrapText="true">
+                     <padding>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </padding></Label>
+      <Label text="To be implemented">
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </Label>
+               </children>
+            </VBox>

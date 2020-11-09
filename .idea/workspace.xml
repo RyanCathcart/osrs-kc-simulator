@@ -1,44 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Test:jar" />
+    </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="This project is going to have a set window size. Managed to get menu buttons working.">
-      <change afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osrs-kc-simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/osrs-kc-simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/assets/Boss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/assets/BossListManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/assets/BossListManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/BKSController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/GISController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/ICCController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/MainWindowController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/osrs-kc-simulator/net/kuhlroad/osrskcsim/main/OSRSKCSim.class" beforeDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,8 +56,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
@@ -99,19 +65,8 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Ryan Cathcart &lt;ryanwcathcart@gmail.com&gt;" />
-        <option value="Ryan Cathcart" />
-      </list>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1jQdKGMVzKXSM3o21EWurmE84zz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1k1mYxznRZs72oZV3UlHyGfoUre" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -130,27 +85,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1/bin/vcruntime140.dll" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator" />
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\assets" />
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\main" />
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\gui" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="net.kuhlroad.osrskcsim.main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\gui" />
-      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator-javafx\src\net\kuhlroad\osrskcsim\main" />
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\Test\src\net\kuhlroad\osrskcsim\assets" />
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\Test\src\net\kuhlroad\osrskcsim\gui" />
+      <recent name="C:\Users\ryanw\Documents\GitHub\Personal Repositories\Test\src\net\kuhlroad\osrskcsim\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -181,11 +126,11 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.kuhlroad.osrskcsim.main.Main" />
-      <module name="osrs-kc-simulator-failure" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <module name="Test" />
+      <option name="VM_PARAMETERS" value="-p &quot;C:\Program Files\Java\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="net.kuhlroad.osrskcsim.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,15 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,53 +163,6 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="osrs-kc-simulator-failure" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="osrs-kc-simulator-failure" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,196 +198,59 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1603740187620" duration="3678000" />
-      <workItem from="1603754116913" duration="9799000" />
-      <workItem from="1604587851170" duration="1072000" />
-      <workItem from="1604588938346" duration="139000" />
-      <workItem from="1604589090232" duration="6000" />
-      <workItem from="1604589163319" duration="6693000" />
-      <workItem from="1604595941495" duration="144000" />
-      <workItem from="1604596099570" duration="1606000" />
-      <workItem from="1604597722955" duration="3567000" />
-      <workItem from="1604619468024" duration="6321000" />
-      <workItem from="1604626120628" duration="2945000" />
-      <workItem from="1604629087786" duration="5664000" />
-      <workItem from="1604639630490" duration="13699000" />
-      <workItem from="1604685531202" duration="6976000" />
-      <workItem from="1604695382081" duration="2915000" />
-      <workItem from="1604708739128" duration="19045000" />
-      <workItem from="1604766737142" duration="6911000" />
-      <workItem from="1604856375551" duration="2967000" />
-      <workItem from="1604865240727" duration="5068000" />
-      <workItem from="1604883373455" duration="989000" />
+      <workItem from="1604876530593" duration="1069000" />
+      <workItem from="1604878028467" duration="1133000" />
+      <workItem from="1604882588527" duration="5529000" />
     </task>
-    <task id="LOCAL-00001" summary="This project will have a set window size for now. Managed to get the menu buttons working.">
-      <created>1604629259637</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604629259637</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added flavor text to each scene describing what each tool is meant to do. May be useful for quick reference during development.">
-      <created>1604631991115</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604631991115</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updates">
-      <created>1604634749740</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604634749740</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Leftover commits from yesterday. Not 100% sure what the content is.">
-      <created>1604680317967</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604680317967</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Removed some remnants of redundant code.">
-      <created>1604695688031</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604695688031</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Working on getting the Boss Kill Simulator functions working correctly. Going for just a text-based system first and then I will move to displaying item graphics.">
-      <created>1604770743337</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1604770743337</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <MESSAGE value="Playing with JavaFX. Learning to manipulate scenes and controls." />
-    <MESSAGE value="This project is going to have a set window size. Managed to get menu buttons working." />
-    <MESSAGE value="This project will have a set window size for now. Managed to get the menu buttons working." />
-    <MESSAGE value="Added flavor text to each scene describing what each tool is meant to do. May be useful for quick reference during development." />
-    <MESSAGE value="Updates" />
-    <MESSAGE value="Leftover commits from yesterday. Not 100% sure what the content is." />
-    <MESSAGE value="Removed some remnants of redundant code." />
-    <MESSAGE value="Working on getting the Boss Kill Simulator functions working correctly. Going for just a text-based system first and then I will move to displaying item graphics." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on getting the Boss Kill Simulator functions working correctly. Going for just a text-based system first and then I will move to displaying item graphics." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="524" key="#Notifications" timestamp="1604600696458">
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604883522442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1032" y="524" key="#Notifications/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604600696458" />
-    <state x="3027" y="167" width="819" height="630" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604878807714">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state x="622" y="225" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603742484337" />
-    <state x="3027" y="167" width="819" height="630" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604878807714" />
-    <state x="1043" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604640561369">
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604883522442" />
+    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604877361099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1043" y="502" key="#com.intellij.fileTypes.FileTypeChooser/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604640561369" />
-    <state x="948" y="275" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603740786183">
+    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604877361099" />
+    <state x="1010" y="454" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1604877029008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="948" y="275" key="#com.intellij.ide.macro.MacrosDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740786183" />
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1604689324588">
+    <state x="1010" y="454" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604877029008" />
+    <state x="1077" y="570" key="DetectedRootsChooserDialog" timestamp="1604876976427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603766422654" />
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604689324588" />
-    <state x="3082" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604878740524">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state x="696" y="412" key="#com.intellij.ide.util.TreeClassChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604870201184" />
-    <state x="3082" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604878740524" />
-    <state x="3245" y="282" width="622" height="578" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1604878945298">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state x="3245" y="282" width="622" height="578" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604878945298" />
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603766652916">
+    <state x="1077" y="570" key="DetectedRootsChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604876976427" />
+    <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1604883366070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603766652916" />
-    <state x="3145" y="326" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1604878870895">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state x="3145" y="326" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604878870895" />
-    <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl" timestamp="1604628724661">
+    <state x="986" y="441" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604883366070" />
+    <state width="1575" height="342" key="GridCell.Tab.0.bottom" timestamp="1604888121826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="256" y="423" key="FileChooserDialogImpl/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603740512634" />
-    <state x="231" y="420" width="660" height="621" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628724661" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1604879159450">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668012" />
-    <state width="2517" height="247" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604869284653" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604879159450" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1604879159450">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="247" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604869284653" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604879159450" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1604879159449">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="247" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604869284652" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604879159449" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1604879159450">
-      <screen x="2560" y="0" width="1920" height="1040" />
-    </state>
-    <state width="2517" height="314" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603767668011" />
-    <state width="2517" height="247" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604869284653" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604879159450" />
-    <state x="446" y="196" key="SettingsEditor" timestamp="1604883394782">
+    <state width="1575" height="342" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
+    <state width="1575" height="342" key="GridCell.Tab.0.center" timestamp="1604888121826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="30" y="256" key="SettingsEditor/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603758315667" />
-    <state x="446" y="196" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604883394782" />
-    <state x="2895" y="146" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1604879158572" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604770753306">
+    <state width="1575" height="342" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
+    <state width="1575" height="342" key="GridCell.Tab.0.left" timestamp="1604888121825">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604770753306" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604628401621">
+    <state width="1575" height="342" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121825" />
+    <state width="1575" height="342" key="GridCell.Tab.0.right" timestamp="1604888121826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604628401621" />
-    <state x="349" y="410" width="2300" height="1091" key="dock-window-1" timestamp="1603742259528">
+    <state width="1575" height="342" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1604878292998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="349" y="410" width="2300" height="1091" key="dock-window-1/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603742259528" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1603764243225">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="936" y="330" key="run.anything.popup/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1603764243225" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604588230990">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604588230990" />
+    <state x="760" y="274" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604878292998" />
   </component>
 </project>
