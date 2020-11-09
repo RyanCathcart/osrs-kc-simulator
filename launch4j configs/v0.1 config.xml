@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator\out\artifacts\osrs_kc_simulator_jar\osrs-kc-simulator.jar</jar>
+  <outfile>C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator\OSRS Killcount Simulator.exe</outfile>
+  <errTitle>Install the correct version of Java before running this application.</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\ryanw\Documents\GitHub\Personal Repositories\osrs-kc-simulator\src\net\kuhlroad\osrskcsim\assets\osrs_slayer_wiki_icon_multi__size.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>0.1.0.0</fileVersion>
+    <txtFileVersion>0.1</txtFileVersion>
+    <fileDescription>A probability calculator for Oldschool RuneScape</fileDescription>
+    <copyright>Ryan Cathacart</copyright>
+    <productVersion>0.1.0.0</productVersion>
+    <txtProductVersion>0.1</txtProductVersion>
+    <productName>OSRS Killcount Simulator</productName>
+    <companyName></companyName>
+    <internalName>OSRSKillCountSimulator</internalName>
+    <originalFilename>OSRS Killcount Simulator.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

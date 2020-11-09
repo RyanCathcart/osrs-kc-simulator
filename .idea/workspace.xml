@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Test:jar" />
+      <artifact name="osrs-kc-simulator:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Test_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/osrs_kc_simulator_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_jar/Test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/osrs_kc_simulator_jar/osrs-kc-simulator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +88,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1k1mYxznRZs72oZV3UlHyGfoUre" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -82,6 +109,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -203,25 +231,37 @@
       <workItem from="1604876530593" duration="1069000" />
       <workItem from="1604878028467" duration="1133000" />
       <workItem from="1604882588527" duration="5529000" />
+      <workItem from="1604888247032" duration="2165000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604883522442">
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604888338257">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604883522442" />
-    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604877361099">
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888338257" />
+    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604888581118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604877361099" />
+    <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888581118" />
     <state x="1010" y="454" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1604877029008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -230,29 +270,29 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1077" y="570" key="DetectedRootsChooserDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604876976427" />
-    <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1604883366070">
+    <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1604888597897">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="986" y="441" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604883366070" />
-    <state width="1575" height="342" key="GridCell.Tab.0.bottom" timestamp="1604888121826">
+    <state x="986" y="441" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888597897" />
+    <state width="2517" height="342" key="GridCell.Tab.0.bottom" timestamp="1604890571156">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1575" height="342" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
-    <state width="1575" height="342" key="GridCell.Tab.0.center" timestamp="1604888121826">
+    <state width="2517" height="342" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
+    <state width="2517" height="342" key="GridCell.Tab.0.center" timestamp="1604890571156">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1575" height="342" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
-    <state width="1575" height="342" key="GridCell.Tab.0.left" timestamp="1604888121825">
+    <state width="2517" height="342" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
+    <state width="2517" height="342" key="GridCell.Tab.0.left" timestamp="1604890571156">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1575" height="342" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121825" />
-    <state width="1575" height="342" key="GridCell.Tab.0.right" timestamp="1604888121826">
+    <state width="2517" height="342" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
+    <state width="2517" height="342" key="GridCell.Tab.0.right" timestamp="1604890571156">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1575" height="342" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888121826" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1604878292998">
+    <state width="2517" height="342" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1604888610666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604878292998" />
+    <state x="760" y="274" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888610666" />
   </component>
 </project>
