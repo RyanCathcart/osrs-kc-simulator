@@ -2,7 +2,7 @@
   <artifact type="jar" name="Test:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Test_jar</output-path>
     <root id="archive" name="Test.jar">
-      <element id="module-output" name="Test" />
+      <element id="module-output" name="osrs-kc-simulator" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1/lib/javafx-swt.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1/lib/javafx.base.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1/lib/javafx.controls.jar" path-in-jar="/" />
