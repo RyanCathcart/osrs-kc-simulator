@@ -9,9 +9,11 @@ import javax.xml.parsers.SAXParserFactory;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
+ * A class that manages the application's list of Bosses. The data is pulled from an XML file using a SAX parser
  * @author Ryan Cathcart
  */
 public class BossListManager {
@@ -22,7 +24,7 @@ public class BossListManager {
     private SAXParserFactory factory;
     private SAXParser saxParser;
 
-    // ArrayList of Bosses
+    // HashMap of Bosses
     private HashMap<String, Boss> bossList;
 
     public BossListManager() {
@@ -44,17 +46,17 @@ public class BossListManager {
             e.printStackTrace();
         }
 
+        // Creates a new DefaultHandler object
         DefaultHandler handler = new DefaultHandler() {
             // Data hierarchy:
             private Boss boss = null;
                 private boolean bName = false;
-                private HashMap<String, Integer> items = null;
+                private ArrayList<Item> items = null;
                     private boolean bItemname = false;
                     private String itemname = "";
 
                     private boolean bRate = false;
                     private int rate = 0;
-
 
             public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
                 if (qName.equalsIgnoreCase("boss")) {
@@ -66,7 +68,7 @@ public class BossListManager {
                 }
 
                 if (qName.equalsIgnoreCase("items")) {
-                    items = new HashMap<String, Integer>();
+                    items = new ArrayList<Item>();
                 }
 
                 if (qName.equalsIgnoreCase("itemname")) {
@@ -105,7 +107,7 @@ public class BossListManager {
                 }
 
                 if (qName.equalsIgnoreCase("item")) {
-                    items.put(itemname, rate);
+                    items.add(new Item(itemname, rate));
                 }
             }
         };
@@ -120,7 +122,6 @@ public class BossListManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     /**
@@ -128,10 +129,10 @@ public class BossListManager {
      */
     public void printBossList() {
         for (String s : bossList.keySet()) {
-            HashMap<String, Integer> items = bossList.get(s).getItems();
+            ArrayList<Item> items = bossList.get(s).getItems();
             System.out.println(bossList.get(s).getName());
-            for (String item : items.keySet()) {
-                System.out.println("\t" + item + " : " + items.get(item));
+            for (Item item : items) {
+                System.out.println("\t" + item.getName() + " : " + item.getDropRate());
             }
         }
     }

@@ -2,6 +2,246 @@
 
 <bosses>
     <boss>
+        <name>Commander Zilyana</name>
+        <items>
+            <item>
+                <itemname>Saradomin sword</itemname>
+                <rate>127</rate>
+            </item>
+
+            <item>
+                <itemname>Saradomin's light</itemname>
+                <rate>254</rate>
+            </item>
+
+            <item>
+                <itemname>Armadyl crossbow</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Saradomin hilt</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 1</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 2</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 3</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>250</rate>
+            </item>
+
+            <item>
+                <itemname>Pet zilyana</itemname>
+                <rate>5000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
+        <name>General Graardor</name>
+        <items>
+            <item>
+                <itemname>Bandos chestplate</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Bandos tassets</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Bandos boots</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Bandos hilt</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 1</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 2</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 3</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>250</rate>
+            </item>
+
+            <item>
+                <itemname>Pet general graardor</itemname>
+                <rate>5000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
+        <name>K'ril Tsutsaroth</name>
+        <items>
+            <item>
+                <itemname>Steam battlestaff</itemname>
+                <rate>127</rate>
+            </item>
+
+            <item>
+                <itemname>Zamorakian spear</itemname>
+                <rate>127</rate>
+            </item>
+
+            <item>
+                <itemname>Staff of the dead</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Zamorak hilt</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 1</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 2</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 3</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>250</rate>
+            </item>
+
+            <item>
+                <itemname>Pet k'ril tsutsaroth</itemname>
+                <rate>5000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
+        <name>Kree'arra</name>
+        <items>
+            <item>
+                <itemname>Armadyl helmet</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Armadyl chestplate</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Armadyl chainskirt</itemname>
+                <rate>381</rate>
+            </item>
+
+            <item>
+                <itemname>Armadyl hilt</itemname>
+                <rate>508</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 1</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 2</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Godsword shard 3</itemname>
+                <rate>762</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>250</rate>
+            </item>
+
+            <item>
+                <itemname>Pet kree'arra</itemname>
+                <rate>5000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
+        <name>Sarachnis</name>
+        <items>
+            <item>
+                <itemname>Sarachnis cudgel</itemname>
+                <rate>384</rate>
+            </item>
+
+            <item>
+                <itemname>Giant egg sac(full)</itemname>
+                <rate>20</rate>
+            </item>
+
+            <item>
+                <itemname>Grubby key</itemname>
+                <rate>15</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (hard)</itemname>
+                <rate>40</rate>
+            </item>
+
+            <item>
+                <itemname>Clue scroll (elite)</itemname>
+                <rate>60</rate>
+            </item>
+
+            <item>
+                <itemname>Jar of eyes</itemname>
+                <rate>2000</rate>
+            </item>
+
+            <item>
+                <itemname>Sraracha</itemname>
+                <rate>3000</rate>
+            </item>
+        </items>
+    </boss>
+
+    <boss>
         <name>Vorkath</name>
         <items>
             <item>

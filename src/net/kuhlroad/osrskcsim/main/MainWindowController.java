@@ -9,6 +9,10 @@ import javafx.scene.control.ScrollPane;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Controller class for the Main Window
+ * @date 2020.11.08
+ */
 public class MainWindowController implements Initializable {
 
     public ScrollPane contentPane;
@@ -17,16 +21,22 @@ public class MainWindowController implements Initializable {
     public Button buttonICC;
     public Button buttonHome;
 
+    /**
+     * Executes when this layout is invoked
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         setPage("Home.fxml");
-
         buttonHome.setDisable(true);
         buttonBKS.setDisable(false);
         buttonGIS.setDisable(false);
         buttonICC.setDisable(false);
     }
 
+    /**
+     * Executes when the home button is clicked in the GUI
+     * @param event The button event
+     */
     public void buttonHomeClicked(ActionEvent event) throws Exception {
         setPage("Home.fxml");
         buttonHome.setDisable(true);
@@ -35,6 +45,10 @@ public class MainWindowController implements Initializable {
         buttonICC.setDisable(false);
     }
 
+    /**
+     * Executes when the BKS button is clicked in the GUI
+     * @param event The button event
+     */
     public void buttonBKSClicked(ActionEvent event) throws Exception {
         setPage("BKS.fxml");
         buttonHome.setDisable(false);
@@ -43,6 +57,10 @@ public class MainWindowController implements Initializable {
         buttonICC.setDisable(false);
     }
 
+    /**
+     * Executes when the GIS button is clicked in the GUI
+     * @param event The button event
+     */
     public void buttonGISClicked(ActionEvent event) throws Exception {
         setPage("GIS.fxml");
         buttonHome.setDisable(false);
@@ -51,6 +69,10 @@ public class MainWindowController implements Initializable {
         buttonICC.setDisable(false);
     }
 
+    /**
+     * Executes when the ICC button is clicked in the GUI
+     * @param event The button event
+     */
     public void buttonICCClicked(ActionEvent event) throws Exception {
         setPage("ICC.fxml");
         buttonHome.setDisable(false);
@@ -71,7 +93,7 @@ public class MainWindowController implements Initializable {
             if (fileURL == null)
                 throw new java.io.FileNotFoundException("FXML file can't be found");
 
-            contentPane.setContent(new FXMLLoader().load(fileURL));
+            contentPane.setContent(FXMLLoader.load(fileURL));
         } catch (Exception e) {
             System.out.println("Page " + filename + " not found.");
         }

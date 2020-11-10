@@ -25,10 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Test_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/osrs_kc_simulator_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_jar/Test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/osrs_kc_simulator_jar/osrs-kc-simulator.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/osrs-slayer-wiki-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/osrs_kc_simulator_jar/osrs-kc-simulator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/osrs_kc_simulator_jar/osrs-kc-simulator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/BossListManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/kuhlroad/osrskcsim/assets/BossListManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +108,13 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-15.0.1/bin/vcruntime140.dll" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -174,19 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -232,6 +220,13 @@
       <workItem from="1604878028467" duration="1133000" />
       <workItem from="1604882588527" duration="5529000" />
       <workItem from="1604888247032" duration="2165000" />
+      <workItem from="1604890949669" duration="360000" />
+      <workItem from="1604894168905" duration="14191000" />
+      <workItem from="1604939162866" duration="47000" />
+      <workItem from="1604985923718" duration="2807000" />
+      <workItem from="1604988747454" duration="1166000" />
+      <workItem from="1605025012726" duration="1513000" />
+      <workItem from="1605026541741" duration="10910000" />
     </task>
     <servers />
   </component>
@@ -248,16 +243,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Huge changes and the first commit for version 0.2.&#10;Additions:&#10;BKS:&#10;- A table now loads a list of items, based on the boss selection. The Boss Kill Simulator can now simulate user-specified items.&#10;&#10;General:&#10;- .jar rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huge changes and the first commit for version 0.2.&#10;Additions:&#10;BKS:&#10;- A table now loads a list of items, based on the boss selection. The Boss Kill Simulator can now simulate user-specified items.&#10;&#10;General:&#10;- .jar rebuild" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604888338257">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888338257" />
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1604904754799">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604904754799" />
     <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604888581118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -274,25 +276,41 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="986" y="441" key="FileChooserDialogImpl/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888597897" />
-    <state width="2517" height="342" key="GridCell.Tab.0.bottom" timestamp="1604890571156">
+    <state width="2517" height="238" key="GridCell.Tab.0.bottom" timestamp="1605037177275">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
-    <state width="2517" height="342" key="GridCell.Tab.0.center" timestamp="1604890571156">
+    <state width="2517" height="238" key="GridCell.Tab.0.bottom/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605037177275" />
+    <state width="2517" height="347" key="GridCell.Tab.0.bottom/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605026359465" />
+    <state width="2517" height="238" key="GridCell.Tab.0.center" timestamp="1605037177274">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
-    <state width="2517" height="342" key="GridCell.Tab.0.left" timestamp="1604890571156">
+    <state width="2517" height="238" key="GridCell.Tab.0.center/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605037177274" />
+    <state width="2517" height="347" key="GridCell.Tab.0.center/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605026359465" />
+    <state width="2517" height="238" key="GridCell.Tab.0.left" timestamp="1605037177274">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
-    <state width="2517" height="342" key="GridCell.Tab.0.right" timestamp="1604890571156">
+    <state width="2517" height="238" key="GridCell.Tab.0.left/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605037177274" />
+    <state width="2517" height="347" key="GridCell.Tab.0.left/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605026359464" />
+    <state width="2517" height="238" key="GridCell.Tab.0.right" timestamp="1605037177274">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604890571156" />
+    <state width="2517" height="238" key="GridCell.Tab.0.right/2824.-768.1366.728/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605037177274" />
+    <state width="2517" height="347" key="GridCell.Tab.0.right/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605026359465" />
     <state x="760" y="274" key="SettingsEditor" timestamp="1604888610666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604888610666" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604988601860">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604988601860" />
+    <state x="296" y="334" key="run.anything.popup" timestamp="1604989391934">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="296" y="334" key="run.anything.popup/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604989391934" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604904712754">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2824.-768.1366.728/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604904712754" />
   </component>
 </project>
